@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "HTML5 audio streamer library for live streaming microphone and receiving",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "prepare": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/WoolDoughnut310/jnaudiostream/issues"
   },
-  "homepage": "https://github.com/WoolDoughnut310/jnaudiostream#readme"
+  "homepage": "https://github.com/WoolDoughnut310/jnaudiostream#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
 }
