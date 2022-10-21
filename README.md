@@ -9,7 +9,7 @@ You can download minified js from this repository or use the CDN link
 ```html
 <script
     type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/jnaudiostream@1.0.0"
+    src="https://cdn.jsdelivr.net/npm/jnaudiostream@latest"
 ></script>
 ```
 
