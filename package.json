@@ -1,0 +1,28 @@
+{
+  "name": "jnaudiostream",
+  "version": "1.0.0",
+  "description": "HTML5 audio streamer library for live streaming microphone and receiving",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WoolDoughnut310/jnaudiostream.git"
+  },
+  "keywords": [
+    "audio",
+    "nodejs",
+    "library",
+    "html5",
+    "stream",
+    "microphone",
+    "live"
+  ],
+  "author": "Joseph Nma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WoolDoughnut310/jnaudiostream/issues"
+  },
+  "homepage": "https://github.com/WoolDoughnut310/jnaudiostream#readme"
+}
