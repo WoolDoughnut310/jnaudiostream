@@ -23,7 +23,7 @@ export class AudioRecorder {
     mediaGranted: boolean;
     recording: boolean;
     onBuffer?: (info: [Blob, number]) => void;
-    onRecordingReady?: (info: {
+    onReady?: (info: {
         mimeType: string;
         data: Blob;
         startTime: number;
@@ -32,7 +32,7 @@ export class AudioRecorder {
     bufferHeader: Blob | null;
     afterStop: boolean;
 
-    constructor(latency?: number, options?: Options) {
+    constructor(options?: Options, latency?: number) {
         options ??= {};
 
         this.options = options;
@@ -162,8 +162,8 @@ export class AudioRecorder {
                     "color:yellow"
                 );
 
-            if (this.onRecordingReady)
-                this.onRecordingReady({
+            if (this.onReady)
+                this.onReady({
                     mimeType: this.options.recorder.mimeType,
                     startTime: Date.now(),
                     data: this.bufferHeader,
