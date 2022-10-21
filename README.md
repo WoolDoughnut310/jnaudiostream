@@ -16,7 +16,7 @@ You can download minified js from this repository or use the CDN link
 ## Install with NPM
 
 ```
-npm i sfmediastream
+npm i jnaudiostream
 ```
 
 ## Use the library
