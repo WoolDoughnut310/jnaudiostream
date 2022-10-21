@@ -4,7 +4,14 @@ HTML5 audio streamer library for live streaming microphone and receiving, based 
 
 ## Install with CDN link
 
-You can download minified js from this repository or use this CDN link `<script type="text/javascript" src='https://cdn.jsdelivr.net/npm/sfmediastream@v1'></script>`
+You can download minified js from this repository or use the CDN link
+
+```html
+<script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/jnaudiostream@1.0.0"
+></script>
+```
 
 ## Install with NPM
 
