@@ -1,6 +1,6 @@
 {
   "name": "jnaudiostream",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "HTML5 audio streamer library for live streaming microphone and receiving",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
