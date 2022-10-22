@@ -58,9 +58,7 @@ export class AudioStreamer {
     }
 
     receiveBuffer(packet: [ArrayBuffer, number]) {
-        console.log("fdjalkfjd");
         if (!this.playing || !this.mediaBuffer?.append) return;
-        console.error("using");
 
         const arrayBuffer = packet[0];
         const streamingTime = packet[1];
