@@ -157,7 +157,11 @@ audioStreamer.debug = true;
 
 ```js
 var audioStreamer = new AudioStreamer(1000); // 1sec
-audioStreamer.playStream();
+
+// DOM interaction is needed first
+myButton.onclick = async () => {
+    await audioStreamer.playStream();
+}
 
 // First thing that must be received
 mySocket.on("bufferHeader", function (packet) {
