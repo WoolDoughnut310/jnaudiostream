@@ -55,6 +55,10 @@ export class AudioStreamer {
 
     playStream() {
         this.playing = true;
+        
+        if (this.audioContext.state === "suspended") {
+            return this.audioContext.resume();
+        }
     }
 
     receiveBuffer(packet: [ArrayBuffer, number]) {
